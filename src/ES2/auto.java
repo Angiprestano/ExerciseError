@@ -1,12 +1,14 @@
 package ES2;
 
 public class auto {
-   private double kmAuto;
-
-    public auto(double kmAuto, int carburanteAuto) {
-        this.kmAuto = kmAuto;
-        this.carburanteAuto = carburanteAuto;
+    public static void main(String[] args) {
+        double kmAuto = 600;
+        int carburanteAuto = 40;
+        System.out.println(kmAuto / carburanteAuto);
+        try {
+            System.out.println("Errore");
+        } catch {
+            System.out.println("");
+        }
     }
-
-    private int carburanteAuto;
 }
